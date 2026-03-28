@@ -1,0 +1,68 @@
+body {
+  background-color: #000;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000 !important;
+}
+
+/* Red bar */
+.top-bar {
+  height: 20px;
+  background-color: red;
+}
+
+/* Header */
+.header-bar {
+  background-color: #1a1a1a;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.header-bar span {
+  margin-right: 20px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.header-bar span:hover {
+  color: white;
+}
+
+/* LEFT BOX */
+.left-box {
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* MAKE IT TALL LIKE IMAGE */
+.left-box.tall {
+  height: 100%;
+  min-height: 430px;
+}
+
+/* RIGHT BOXES */
+.content-box {
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #333;
+  flex: 1;
+}
+
+/* Carousel fix */
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
+
+/* Image */
+.left-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
